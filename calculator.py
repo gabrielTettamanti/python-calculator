@@ -33,13 +33,13 @@ def clear():
 tk=Tk()
 tk.configure(background="grey")
 tk.title('Python Calculator')
-tk.geometry('280x280')
+tk.geometry('236x183')
 
 # To store the values entered by the user
 equation=StringVar()
 
 # Entry Box to accept the user’s expression(input)
-Text_Entry_Box=Entry(tk,textvariable=equation,width=20)
+Text_Entry_Box=Entry(tk,textvariable=equation,width=5)
 Text_Entry_Box.grid(columnspan=8,ipadx=100)
 
 button1 = Button(tk, text=' 1 ', fg='black', bg='#8f8f8f',command=lambda: press(1), height=2, width=7)
